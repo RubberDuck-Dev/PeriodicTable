@@ -8,6 +8,7 @@ One day build of a Periodic Table using CSS Grid through Styled Components.
 - Styled Components
 
 Data Sources:
-[Bowserinator Periodic Table in JSON](https://github.com/Bowserinator/Periodic-Table-JSON)
 
+[Bowserinator Periodic Table in JSON](https://github.com/Bowserinator/Periodic-Table-JSON)
+[Electronegativity](https://www.angelo.edu/faculty/kboudrea/periodic/trends_electronegativity.htm)
 [Wikipedia](Wikipedia.org)

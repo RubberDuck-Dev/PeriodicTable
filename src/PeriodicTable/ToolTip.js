@@ -30,11 +30,23 @@ export const ToolTip = props => {
           Atom Mass: {element.atomic_mass.toFixed(3)}g/mol
         </DetailTableRow>
         <DetailTableRow>
-          Density: {element.density}g/cm<sup>3</sup>
+          Density: {element.density}"g/cm<sup>3</sup>
         </DetailTableRow>
-        <DetailTableRow>Boil Point: {element.boil}K</DetailTableRow>
-        <DetailTableRow>Melt Point: {element.melt}K</DetailTableRow>
-        <DetailTableRow>Molar Heat: {element.molar_heat}mol/K</DetailTableRow>
+        <DetailTableRow>
+          Boil Point: {element.boil}
+          {element.boil ? "K" : ""}
+        </DetailTableRow>
+        <DetailTableRow>
+          Melt Point: {element.melt}
+          {element.melt ? "K" : ""}
+        </DetailTableRow>
+        <DetailTableRow>
+          Molar Heat: {element.molar_heat}
+          {element.molar_heat ? "mol/K" : ""}
+        </DetailTableRow>
+        <DetailTableRow>
+          Electronegativity: {element.electronegativity}pu
+        </DetailTableRow>
       </DetailTable>
       <Close onClick={e => props.closeToolTip(e)}>x</Close>
     </ToolTipBox>

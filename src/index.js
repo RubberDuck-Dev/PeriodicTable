@@ -5,7 +5,7 @@ import WikiData from "./WikiData.js";
 import "./styles.css";
 
 const rootElement = document.getElementById("root");
-ReactDOM.render(<WikiData />, rootElement);
+ReactDOM.render(<App />, rootElement);
 
 /*
 Name
